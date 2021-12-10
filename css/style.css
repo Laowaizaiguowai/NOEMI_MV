@@ -438,7 +438,7 @@ h2, h3 {
   border: none;
   background-color: #b59f5b;
   color: #ffffff;
-  font-family: OpenSans-Bold, sans-serif;
+  font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   cursor: pointer;
@@ -465,7 +465,7 @@ h2, h3 {
   display: block;
   text-decoration: none;
   color: #0f0d0e;
-  font-family: OpenSans-Bold, sans-serif;
+  font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
   border: 3px solid #eeeeee;
@@ -483,7 +483,7 @@ h2, h3 {
 .aside-theme-link {
   text-decoration: none;
   color: #000000;
-  font-family: OpenSans-Bold, sans-serif;
+  font-weight: 700;
   font-size: 14px;
 }
 
@@ -498,7 +498,7 @@ h2, h3 {
 
 .theme-quantity {
   color: #b59f5b;
-  font-family: OpenSans-Bold, sans-serif;
+  font-weight: 700;
   font-size: 12px;
   vertical-align: super;
   margin-left: 2px;
