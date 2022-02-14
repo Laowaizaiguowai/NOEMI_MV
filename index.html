@@ -524,13 +524,14 @@
 		</div>
 	</footer>
 	<!--HIDDEN BLOCK FEEDBACK-->
+	<input type="checkbox" id="popup__close">
 	<div class="hidden-block">
 		<div class="popup-grey">
 			<div class="popup-wrapper">
 				<h5 class="popup-title">Ваш фидбек</h5>
 				<form action="" class="popup-active">
 					<div class="form-row">
-						<label class="form-popup">
+						<label for="" class="form-popup">
 							<span class="popup-hint">Как часто вы заходите на сайт?</span>
 							<select class="select">
 								<option>Раз в месяц</option>
@@ -553,7 +554,7 @@
 					<div class="form-row">
 						<label class="form-popup">
 							<span class="popup-hint">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-							<textarea name="" id="" cols="30" rows="10" class="popup-message" placeholder="Может, больше рецептов?"></textarea>
+							<textarea class="popup-message" placeholder="Может, больше рецептов?"></textarea>
 						</label>
 					</div>
 					<label class="form-popup-button">
@@ -561,7 +562,8 @@
 						<button type="submit" class="popup-btn">Отправить</button>
 					</label>
 				</form>
-				<button class="popup__close" type="button"></button>
+				<label for="popup__close" class="popup__close"></label>
+				
 			</div>
 
 		</div>
