@@ -844,8 +844,21 @@ h2 {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 25px;
-
 }
+
+.popup-message:focus::-webkit-input-placeholder {
+	color:transparent;
+}
+.popup-message:focus::-moz-placeholder {
+	color:transparent;
+}
+.popup-message:focus:-moz-placeholder {
+	color: transparent;
+}
+.popup-message:focus:-ms-input-placeholder {
+	color: transparent;
+}
+
 
 @media (max-width: 640px){
 	.header {
