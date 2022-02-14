@@ -692,7 +692,7 @@ h2 {
 
 .popup-wrapper {
 	width: 90%;
-	max-width: 392px;
+	max-width: 430px;
 	margin: auto;
 	padding: 30px;
 	font-family: OpenSans-Regular, sans-serif;
@@ -846,6 +846,14 @@ h2 {
     background-size: 25px;
 }
 
+.popup__close:hover {
+	cursor: pointer;
+}
+
+#popup__close:checked + .hidden-block {
+  visibility: hidden;
+}
+
 .popup-message:focus::-webkit-input-placeholder {
 	color:transparent;
 }
@@ -858,7 +866,6 @@ h2 {
 .popup-message:focus:-ms-input-placeholder {
 	color: transparent;
 }
-
 
 @media (max-width: 640px){
 	.header {
