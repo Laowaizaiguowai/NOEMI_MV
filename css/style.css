@@ -854,6 +854,10 @@ h2 {
   visibility: hidden;
 }
 
+#popup__close:checked {
+	display: none;
+}
+
 .popup-message:focus::-webkit-input-placeholder {
 	color:transparent;
 }
